@@ -1,0 +1,301 @@
+.collapsible>.collapse-toggler .simbol .minus{display:none}
+.collapsible.show>.collapse-toggler .simbol .minus{display:block}
+.collapsible.show>.collapse-toggler .simbol .plus{display:none}
+.home-section-2{position:relative;padding-bottom:.78vw;background-image:linear-gradient(to bottom,#e3f7fd,#e2f7fd)}
+.home-section-2 .heading{text-align:center;margin-bottom:2vw}
+.home-section-2 h2{margin-top:.5vw}
+.home-section-2 ul{display:flex;justify-content:center;text-align:center}
+.home-section-2 li:not(:last-child){margin-right:1.8vw}
+.home-section-2 li img{width:16.92vw;margin-bottom:.78vw;border-radius:3vw}
+@media (max-width:1023.98px){.home-section-2{padding-bottom:24.35vw;background-image:none}
+.home-section-2 .heading{text-align:center;margin-bottom:2vw}
+.home-section-2 h2{margin-top:2.5vw;margin-bottom:5vw;line-height:1.23;padding:0 12vw}
+.home-section-2 ul{display:flex;justify-content:center;text-align:center;flex-wrap:wrap;margin-bottom:-6.4vw}
+.home-section-2 li{flex:0 0 50%;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:6.4vw}
+.home-section-2 li:not(:last-child){margin-right:0}
+.home-section-2 li img{width:42.56vw;margin-bottom:1vw;border-radius:6vw}
+.home-section-8{position:relative;z-index:1;color:#fff;margin-top:-5vw}
+.home-section-8 .container{width:80%;position:absolute;top:16.14vw;left:50%;transform:translateX(-50%);display:flex;justify-content:space-between}
+.home-section-8 .accordion{flex:0 0 38vw}
+.home-section-8 .collapsible{margin-bottom:1.3vw;box-shadow:0 6px 12px rgba(0,0,0,.16);border-radius:1vw;background-color:#f1ffff21;backdrop-filter:blur(30px) opacity(.9);padding:1.3vw 0 1.3vw 0}
+.home-section-8 .collapse-toggler{padding:0 2vw 0 2.5vw;display:flex;align-items:center;justify-content:space-between}
+.home-section-8 .collapse-toggler img{width:.78vw;transition:all 0.5s ease}
+.home-section-8 .collapsible.show .collapse-toggler img{transform:rotate(180deg)}
+.home-section-8 .collapse>div{padding:1vw 3.38vw 0 2.5vw;line-height:1.7}
+.home-section-8 .bg img{width:100%}
+.home-section-8 .bg img.mobile-bg{display:none}
+@media (max-width:1023.98px){.home-section-8{background-image:linear-gradient(to bottom,#4f2c7b,#20037f);padding-top:94.53vw;padding-bottom:92.3vw;margin-top:0}
+.home-section-8 .container{width:92%;position:absolute;top:9.5vw;display:block}
+.home-section-8 .accordion{margin-top:5.64vw}
+.home-section-8 .text h3{color:#fff}
+.home-section-8 .text h3::after{background-color:#fff}
+.home-section-8 .text h2{margin-top:2.5vw}
+.home-section-8 .collapsible{margin-bottom:3.85vw;border-radius:4vw;padding:4.87vw 0;background-color:#753eac6c;backdrop-filter:blur(50px) opacity(.9)}
+.home-section-8 .collapse-toggler{padding:0 4.87vw}
+.home-section-8 .collapse-toggler img{width:3vw}
+.home-section-8 .collapse>div{padding:2.5vw 4.87vw 0 4.87vw}
+.home-section-8 .bg img{width:100%}
+.home-section-8 .bg img.desktop-bg{display:none}
+.home-section-8 .bg img.mobile-bg{display:block}
+.generator__app{width:25.34375vw;margin:0 6.77083vw 0 0;background:#f1faff;padding:.57292vw 1.30208vw 3.125vw;border-radius:.88542vw;-webkit-box-shadow:0 .3125vw 2.86458vw 0 rgba(77,70,206,.24);box-shadow:0 .3125vw 2.86458vw 0 rgba(77,70,206,.24);position:relative}
+@media screen and (max-width:1024px){.generator__app{width:100%;margin:6.41026vw 0 0;padding:0}
+.generator__app #generator-results-canvas{-webkit-box-shadow:none;box-shadow:none;width:100%;height:auto;aspect-ratio:473/516}
+.generator__app #Content{padding-top:0;position:relative}
+@media screen and (max-width:1024px){.generator__app #Content{margin-top:0}
+.generator__app #bingo-caller{width:auto;height:3.17708vw;margin-bottom:.67708vw}
+@media screen and (max-width:1024px){.generator__app #bingo-caller{display:none}
+.generator__app #templates-popup{left:50%!important;background-size:100% 100%!important;height:80vh!important;top:60%!important}
+@media screen and (max-width:1024px){.generator__app #templates-popup{height:70vw!important;top:55%!important}
+.generator__app #templates-popup .tabs-area{height:calc(100% - 1vw)!important}
+@media screen and (max-width:1024px){.generator__app #templates-popup .tabs-area{height:calc(100% - 5vw)!important}
+.generator__app #templates-popup .tabs-content{padding:1.5vw 2.6vw}
+@media screen and (max-width:1024px){.generator__app #templates-popup .tabs-content{padding:2.3vw}
+.generator__app #templates-popup .tabs-content li{height:100%}
+.generator__app #templates-popup .section:last-of-type{padding-bottom:0}
+.generator__app #generate-pdf{-webkit-box-shadow:none!important;box-shadow:none!important}
+@media screen and (max-width:1024px){.generator__app #generate-pdf{width:38.46154vw;height:13.58974vw}
+.generator__app #pdf-loading{background-color:rgba(0,0,0,.4)}
+.generator__app #bingo-caller .played-balls{height:2.9vw;padding:0;min-height:0;margin:.15625vw .26042vw 0 -1.30208vw;border-radius:1.77083vw}
+.generator__app #bingo-caller #play-now{margin:.15625vw;width:2.70833vw;height:auto;aspect-ratio:1}
+.generator__app #bingo-caller #play-now-wrapper{margin-right:0;position:relative;z-index:2}
+.generator__app .bingo-generator .grid-inputs{width:100%;height:auto;aspect-ratio:1;padding:5.46875vw 2.5vw 0;margin:0}
+@media screen and (max-width:1024px){.generator__app .bingo-generator .grid-inputs{padding:19vw 8.97436vw 0;padding:19vw 9.48718vw 0 8.97436vw}
+.generator__app .bingo-generator .grid-inputs input{font-size:7.17949vw;padding-top:.51282vw}
+.generator__app .cards-per-page{padding:0!important;width:auto!important}
+.generator__app .parameter-control{width:5.83333vw!important;height:auto!important;max-width:none!important;aspect-ratio:112/40!important;border:1px solid #0095eb!important;border-radius:0.78125vw!important;line-height:1!important;font-size:1.14583vw!important;color:#0095eb!important;-webkit-box-shadow:none!important;box-shadow:none!important;margin:0!important;font-weight:700!important;font-family:"dax"!important}
+@media screen and (max-width:1024px){.generator__app .parameter-control{width:17.94872vw!important;height:6.41026vw!important;border-radius:3.84615vw!important;font-size:4.10256vw!important}
+.generator__app .parameter-control .value{line-height:1.7}
+@media screen and (max-width:1024px){.generator__app .parameter-control .value{line-height:1.5!important}
+.generator__app #showTemplatesPopup{background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3LjciIGhlaWdodD0iMTYuNDY1IiB2aWV3Qm94PSIwIDAgNy43IDE2LjQ2NSI+PHBhdGggZD0iTTcuMjMzLDYuN2ExLDEsMCwwLDEtLjYxOS0uMjE1TC0uNjE5Ljc4NWExLDEsMCwwLDEtLjE2Ni0xLjQsMSwxLDAsMCwxLDEuNC0uMTY2TDcuMjMzLDQuNDI2LDEzLjg0NS0uNzg1YTEsMSwwLDAsMSwxLjQuMTY2LDEsMSwwLDAsMS0uMTY2LDEuNGwtNy4yMzIsNS43QTEsMSwwLDAsMSw3LjIzMyw2LjdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDE1LjQ2NSkgcm90YXRlKC05MCkiIGZpbGw9IiMwMDk1ZWIiLz48L3N2Zz4=) right .88542vw center/0.41667vw .88542vw no-repeat,#fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNS40NTkiIGhlaWdodD0iMjUuNDQ5IiB2aWV3Qm94PSIwIDAgMjUuNDU5IDI1LjQ0OSI+PHBhdGggZD0iTTkuMDEzLDUuM0ExLjU5MSwxLjU5MSwwLDEsMSw3LjQyMiw2Ljg5MiwxLjU4OCwxLjU4OCwwLDAsMSw5LjAxMyw1LjNabTcuNzYyLDMuMzcyTDE2LjQsNy4xNjhhMS4wNjYsMS4wNjYsMCwwLDAtMS4wMjktLjgwNiwxLjA1NSwxLjA1NSwwLDAsMC0xLjAyOS44MDZsLS4zNzEsMS41TDEyLjQ5MSw5YTEuMDQzLDEuMDQzLDAsMCwwLS44MTYsMS4wMTgsMS4wNjksMS4wNjksMCwwLDAsLjc4NSwxLjAzOWwxLjUxNi40MTQuMzgyLDEuNTE2YTEuMDY2LDEuMDY2LDAsMCwwLDEuMDI5LjgwNiwxLjA1NSwxLjA1NSwwLDAsMCwxLjAyOS0uODA2bC4zNzEtMS41MDYsMS41MDYtLjM3MWExLjA2NiwxLjA2NiwwLDAsMCwuODA2LTEuMDI5LDEuMDU1LDEuMDU1LDAsMCwwLS44MDYtMS4wMjlsLTEuNTA2LS4zNzFabS44MzgtMy41LDEuODY2Ljc4NS43NDIsMS44NTZhMS4wNjIsMS4wNjIsMCwwLDAsMS45NzIsMGwuNzQyLTEuODQ1LDEuODQ1LS43NDJhMS4wNjIsMS4wNjIsMCwwLDAsMC0xLjk3MmwtMS44NDUtLjc0MkwyMi4xOTMuNjY4YTEuMDYyLDEuMDYyLDAsMCwwLTEuOTcyLDBMMTkuNDg5LDIuNWwtMS44MzQuN2ExLjA2MiwxLjA2MiwwLDAsMC0uMDQyLDEuOTcyWm03LjgzNiw0LjM2OXYxMC42YTUuMyw1LjMsMCwwLDEtNS4zLDUuM0g1LjNhNS4zLDUuMywwLDAsMS01LjMtNS4zVjUuM0E1LjMsNS4zLDAsMCwxLDUuMywwaDEwLjZhMS4wNiwxLjA2LDAsMCwxLDAsMi4xMjFINS4zQTMuMTksMy4xOSwwLDAsMCwyLjEyMSw1LjNWMTIuMjlsLjU5NC0uNTk0YTMuNjc0LDMuNjc0LDAsMCwxLDUuMTc1LDBsNS45MTcsNS45MTdhMS40ODUsMS40ODUsMCwwLDAsMi4wODksMEwxNi41MSwxN2EzLjY3NCwzLjY3NCwwLDAsMSw1LjE3NSwwbDEuNjU0LDEuNjU0VjkuNTQzYTEuMDYsMS4wNiwwLDEsMSwyLjEyMSwwWk0yMy4wNzMsMjEuMzg4bC0yLjkwNS0yLjkwNWExLjU0OSwxLjU0OSwwLDAsMC0yLjE3NCwwbC0uNjE1LjYxNWEzLjYxLDMuNjEsMCwwLDEtNS4wOSwwTDYuMzczLDEzLjE4YTEuNTQ5LDEuNTQ5LDAsMCwwLTIuMTc0LDBsLTIuMSwyLjF2NC44NjdhMy4xOSwzLjE5LDAsMCwwLDMuMTgxLDMuMTgxSDIwLjEyNmEzLjE3NiwzLjE3NiwwLDAsMCwyLjkyNy0xLjk0WiIgZmlsbD0iIzAwOTVlYiIvPjwvc3ZnPg==) 1.04167vw center/1.30208vw 1.30208vw no-repeat}
+@media screen and (max-width:1024px){.generator__app #showTemplatesPopup{background-size:1.53846vw 2.82051vw,4.10256vw 4.10256vw;background-position:right 2.5641vw center,left 3.07692vw center}
+.generator__app .grid-size-options{-webkit-box-shadow:none!important;box-shadow:none!important;border-radius:0.52083vw!important;border:1px solid #0095eb!important;inset:-1px -1px auto!important;width:auto!important}
+@media screen and (max-width:1024px){.generator__app .grid-size-options{border-radius:3.07692vw!important}
+.generator__app .grid-size-options li{font-size:1.14583vw!important;font-weight:700!important;font-family:"dax"!important;line-height:1.8!important}
+@media screen and (max-width:1024px){.generator__app .grid-size-options li{font-size:3.84615vw!important}
+.generator__app .grid-size-options li:hover{background-color:#0095eb!important;color:#fff!important}
+.generator__app .app__parameters{position:static!important;padding:0!important;display:-ms-grid!important;display:grid!important;-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr)}
+@media screen and (max-width:1024px){.generator__app .app__parameters{padding:0 7.69231vw!important}
+.generator__app .app__parameter{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:.20833vw}
+@media screen and (max-width:1024px){.generator__app .app__parameter{gap:.76923vw}
+.generator__app .app__parameter:first-child{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+.generator__app .app__parameter:last-child{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
+.generator__app .app__label{font-size:1.09375vw}
+@media screen and (max-width:1024px){.generator__app .app__label{font-size:3.33333vw}
+.generator__app .app__title{width:17.44792vw;margin:-1.77083vw auto .52083vw}
+@media screen and (max-width:1024px){.generator__app .app__title{width:53.84615vw;margin:-5.64103vw auto 1.28205vw}
+.generator__app .app__title input{width:100%!important;border-radius:0.83333vw!important;-webkit-box-shadow:none!important;box-shadow:none!important;border:1px solid #0095eb!important;height:auto!important;padding:.46875vw 2.70833vw!important;font-size:1.45833vw!important;background:#fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjYiIGhlaWdodD0iMjkiIHZpZXdCb3g9IjAgMCAyNiAyOSI+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cmVjdCB3aWR0aD0iMjYiIGhlaWdodD0iMjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMzIyIC0xLjYxMikiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwOTVlYiIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMzIyIDEuNjEyKSIgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMjQsLjVIMHYtMUgyNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMzIyIDI2LjM4OCkiIGZpbGw9IiMwMDk1ZWIiLz48cGF0aCBkPSJNMi45ODMsMjQuMjE5YS41LjUsMCwwLDEtLjQ4MS0uNjM3bDIuMTQxLTcuNDkyYS41LjUsMCwwLDEsLjEyNy0uMjE2TDE5LjIyMSwxLjQyMmEzLjE0OSwzLjE0OSwwLDAsMSw0LjQ1NCwwTDI1LjI4LDMuMDI4YTMuMTQ5LDMuMTQ5LDAsMCwxLDAsNC40NTRMMTAuODMsMjEuOTMyYS41LjUsMCwwLDEtLjIxNi4xMjdMMy4xMiwyNC4yQS41LjUsMCwwLDEsMi45ODMsMjQuMjE5Wm0yLjU4Ni03LjczMS0xLjg1OCw2LjUsNi41LTEuODU4TDI0LjU3Myw2Ljc3NGEyLjE1MiwyLjE1MiwwLDAsMCwwLTMuMDM5TDIyLjk2OCwyLjEyOWEyLjE0OSwyLjE0OSwwLDAsMC0zLjA0LDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC43MjUgLTEuNDI0KSIgZmlsbD0iIzAwOTVlYiIvPjxwYXRoIGQ9Ik01LDUuNzA2LS4zNTQuMzU0LjM1NC0uMzU0LDUuNzA2LDVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNi43MDkgMi40OTMpIiBmaWxsPSIjMDA5NWViIi8+PC9nPjwvc3ZnPg==) right 1.25vw center/1.35417vw 1.51042vw no-repeat}
+@media screen and (max-width:1024px){.generator__app .app__title input{border-radius:4.61538vw!important;padding:1.53846vw 7.69231vw!important;font-size:4.35897vw!important;background-size:4.10256vw 4.35897vw;background-position:right 3.84615vw center}
+.generator__app .app__button{position:absolute;inset:auto 5.72917vw -5.20833vw}
+@media screen and (max-width:1024px){.generator__app .app__button{inset:auto 5.12821vw -7.69231vw}
+@media screen and (max-width:1024px){#generator-result{padding-bottom:7.69231vw}
+#bingo-card-generator #step2 .inner{margin-top:5.12821vw!important}
+.page-template-tpl-bingo-card-generator .header{color:#04005a}
+#bingo-card-generator #step1 ._left,#bingo-card-generator #step2,#bingo-card-generator #step3{font-size:1vw}
+#bingo-card-generator #step1 ._left *,#bingo-card-generator #step2 *,#bingo-card-generator #step3 *{font-size:100%;margin:0;padding:0}
+#bingo-card-generator #step1 ._left img,#bingo-card-generator #step2 img,#bingo-card-generator #step3 img{max-width:100%;height:auto;display:block;margin:0 auto}
+.page-template-tpl-bingo-card-generator{background-size:cover;background-repeat:no-repeat;background-position:center -1.2vw;background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/images/bg.jpg)}
+#bingo-card-generator #step1{position:relative;height:74vw;background-size:cover;background-repeat:no-repeat;background-position:center -1.2vw;overflow:hidden}
+#bingo-card-generator #step1 .inner{display:flex;position:relative}
+#bingo-card-generator.new-layout #step1 .inner{display:grid;grid-template-columns:1fr 2fr 2fr;gap:100px;align-items:start;padding-top:6.6vw}
+#bingo-card-generator #step1 .inner ._right{position:relative;width:53.5%}
+#bingo-card-generator #step1 .inner ._right .section{position:absolute;right:7.5%;top:5%;transform:scale(.85)}
+#bingo-card-generator #step1 .inner ._right ._iframe{width:100%;position:relative;top:-12.5%;right:-6.8%}
+#bingo-card-generator #step1 .inner ._right ._iframe iframe{top:0;margin:0 auto;border:0;height:100%;width:100%;position:fixed;right:0;z-index:1}
+#bingo-card-generator #step1 .inner ._left{position:relative;left:5.5%;width:45%}
+#bingo-card-generator #step1 .inner ._left ._title span{padding-left:9.3%;font-size:135%;line-height:1.2;color:#0095eb;font-weight:900;display:block;position:relative}
+#bingo-card-generator #step1 .inner ._left ._title span:before{content:"xxx";position:absolute;border-top:2px #0095eb solid;color:transparent;top:40%;left:.5%;pointer-events:none;width:6%}
+#bingo-card-generator #step1 .inner ._left ._title h1{font-size:287%;line-height:1.12;font-weight:900;margin-top:1%;color:#04005a;margin-top:2%;display:block;position:relative;left:.5%;padding-right:16%}
+#bingo-card-generator #step1 .inner ._left ._list{padding-left:8%;margin-top:4.3%;font-size:94.5%;line-height:1.7}
+#bingo-card-generator #step1 .inner ._left ._list ul{font-size:100%;position:relative;font-family:"Poppins",sans-serif}
+#bingo-card-generator #step1 .inner ._left ._list ul:before{content:"xxx";position:absolute;border-left:1px #0095eb dashed;height:90%;left:-5.5%;top:3%;color:transparent;pointer-events:none}
+#bingo-card-generator #step1 .inner ._left ._list ul li{margin-bottom:3%;position:relative}
+#bingo-card-generator #step1 .inner ._left ._list ul li ._num{position:absolute;background:#0095eb;left:-8%;width:2.4vw;height:2.4vw;top:10%;border-radius:50%;border:2px #fff solid;text-align:center;color:#fff;font-size:150%;line-height:1.6}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(2) ._num{top:-30%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(3) ._num{top:1%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(4) ._num{top:-3%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(5) ._num{top:-3%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(6) ._num{top:-4%}
+#bingo-card-generator #step2{position:relative;margin-bottom:0}
+#bingo-card-generator #step2 .inner{display:flex;position:relative;padding-top:0;width:90%;margin:0 auto;flex-wrap:wrap;margin-top:-20.8%;justify-content:space-between}
+#bingo-card-generator #step2 .inner ._left{width:45%}
+#bingo-card-generator #step2 .inner ._left ._img{position:relative;left:9%;top:.5%}
+#bingo-card-generator #step2 .inner ._right{width:45%;padding-left:3%}
+#bingo-card-generator #step2 .inner ._right ._title{margin-top:21%;font-size:290%;line-height:1.1;margin-bottom:4%;color:#04005a}
+#bingo-card-generator #step2 .inner ._right ._title h2{font-weight:900}
+#bingo-card-generator #step2 .inner ._right ._text p{font-family:"Poppins",sans-serif;margin-bottom:4.8%;font-size:95%;padding-right:15%;line-height:1.7}
+.home-section-2{position:relative;padding-bottom:.78vw;background-image:linear-gradient(to bottom,#e3f7fd,#e2f7fd);padding:3.5% 0 12.4%}
+.home-section-2 h2{line-height:1.12;color:#04005a;margin-top:2.2%;display:block;position:relative;left:0;margin-bottom:1.5%;font-size:344%!important}
+.home-section-2{background:none}
+.home-section-2 ul{width:73.5%;margin:0 auto;margin-top:2.5%}
+.home-section-2 li img{margin:0 auto}
+.home-section-2 ul li{width:25%}
+.home-section-2 ul li .f-d-24{margin-top:6%;font-size:155%!important}
+.home-section-2 ._button{width:11%;margin:0 auto;margin-top:2.7%}
+.home-section-2 ._button button{border:0;background:none}
+.home-section-2 ._button img{max-width:100%;height:auto;display:block;margin:0 auto}
+body .cards-per-page-wrapper{display:flex;flex-wrap:wrap;justify-content:space-between}
+body .cards-per-page{font-size:1.5vw;justify-content:flex-start;width:50%}
+body .cards-per-page p{align-self:center}
+body .cards-per-page select{color:#0095eb;border:1px #0095eb solid;border-radius:23px;padding:1.5% 4%;font-size:180%;margin-left:2.5%;position:relative;top:0}
+.home-section-2 ._button button{box-shadow:0 0 0}
+@media (max-width:1024px){.home-section-2 li br{display:none}
+#bingo-card-generator #step1{height:auto}
+#bingo-card-generator #step1 ._left{height:auto;font-size:4vw}
+#bingo-card-generator #step1 .inner ._left{position:relative;left:0;width:100%;margin-top:7.5%}
+#bingo-card-generator #step1 .inner ._left ._list ul li ._num{left:-16%;width:9.4vw;height:9.4vw;line-height:1.9;font-size:125%}
+#bingo-card-generator #step1 .inner ._left ._list{padding-left:0;width:90%;margin:0 auto}
+#bingo-card-generator #step1 .inner ._left ._list ul:before{left:-10%}
+#bingo-card-generator #step1 .inner ._left ._list{margin-top:2.5%;position:relative;left:8%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(1) ._num{top:5%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(2) ._num{top:5%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(3) ._num{top:5%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(4) ._num{top:5%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(5) ._num{top:5%}
+#bingo-card-generator #step1 .inner ._left ._list ul li:nth-child(6) ._num{top:5%}
+#bingo-card-generator #step1 .inner ._left ._list ul:before{display:none}
+#bingo-card-generator #step1 .inner ._left ._list ul li{padding-right:11%}
+#bingo-card-generator #step1 .inner ._right{position:relative;width:100%;margin:0 auto}
+#bingo-card-generator #step1 .inner ._right ._iframe{width:100%;position:relative;right:0;left:0;top:0;transform:scale(1.4);margin-top:40%}
+#bingo-card-generator #step2 .inner ._right{width:100%}
+#bingo-card-generator #step2 .inner ._left{width:100%}
+#bingo-card-generator #step2 .inner ._left ._img{left:0;right:0;margin:0 auto;margin-top:20%}
+#bingo-card-generator #step2{font-size:4vw}
+#bingo-card-generator #step2 .inner ._right ._title{font-size:225%;padding-right:10%}
+#bingo-card-generator #step2 .inner{flex-direction:column-reverse}
+#bingo-card-generator #step2 .inner ._right ._text p{padding-right:0}
+#bingo-card-generator #step2 .inner ._left ._img{margin-top:5%}
+.home-section-2 h2{font-size:225%!important;padding:0 10%}
+.home-section-2 .heading{width:90%;margin:0 auto}
+.home-section-2 ._button{width:35%;margin:0 auto}
+.home-section-2 li{justify-content:flex-start}
+.home-section-2 ul li .f-d-24{font-size:100%!important}
+.home-section-2 ul{width:85%}
+.home-section-2{padding:3.5% 0 25%}
+.home-section-2 ._button{width:50%}
+.home-section-2 ._button button{border:0;background:none;box-shadow:0 0 0}
+#bingo-card-generator #step1 .inner ._right .section{top:15%;transform:scale(.75);right:0;left:0;margin:0 auto}
+body .cards-per-page{font-size:85%;justify-content:flex-start;width:55%;display:flex;flex-wrap:wrap;flex-direction:row}
+body .cards-per-page select{font-size:120%}
+#bingo-card-generator{overflow-x:hidden;margin-top:10%}
+.page-template-tpl-bingo-card-generator .header .header-hamburger svg *,.page-template-tpl-bingo-card-generator .header.header-always-white .header-hamburger svg *{stroke:#04005a}
+#templates-popup{left:50%!important}
+.templates-list{padding:20px 0 20px 20px;padding-right:0;background:rgba(255,255,255,.9);border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.1);position:relative}
+.templates-list::before{content:'';position:absolute;bottom:20px;left:10px;right:10px;height:50px;background:linear-gradient(to bottom,transparent,rgba(255,255,255,1));pointer-events:none;z-index:10;opacity:1;transition:opacity 0.3s ease}
+.templates-list.scrolled-to-bottom::before{opacity:0}
+.template-item{display:flex;align-items:center;gap:10px;width:100%;height:48px;padding:0 20px;background:transparent;color:#333;text-decoration:none;border-radius:100px;transition:all 0.3s ease;border:none;font-family:Poppins,sans-serif;font-weight:400;font-size:16px;line-height:118%;text-transform:capitalize;position:relative}
+.template-item .template-icon{width:24px;height:24px;object-fit:contain;flex-shrink:0}
+.template-item .template-name{flex:1}
+.template-item:hover{background:#f0f0f0}
+.template-item.active{background:linear-gradient(270deg,#0094EB 0%,#006CC5 100%);color:#fff;height:48px;padding:8px 40px 8px 20px;width:fit-content}
+.template-item.active::after{content:'';position:absolute;right:20px;width:8px;height:8px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg);top:50%;margin-top:-4px}
+.template-form{padding:20px;border-radius:15px}
+#bingo-card-generator.new-layout .generator__app{background:#F1FAFF;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.1)}
+#bingo-card-generator.new-layout .grid-inputs input{display:none!important}
+#bingo-card-generator.new-layout .grid-inputs div{pointer-events:none!important}
+@media (max-width:1024px){#bingo-card-generator.new-layout #step1 .inner{grid-template-columns:1fr;gap:20px}
+.templates-list{padding:15px}
+.templates-list::before{display:none}
+@font-face{font-display:swap;font-family:"DaxCondensed";src:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/fonts/DaxCondensedBlack.ttf) format("truetype");font-weight:400;font-style:normal}
+#Content{background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_page.jpg?v=1);background-size:100%;background:none}
+#generator-result{position:relative}
+.bingo-generator .grid-inputs{display:grid;width:23.9vw;height:23.75vw;padding:0;box-sizing:border-box;position:absolute;margin-left:2.91vw;margin-top:6.4vw}
+.bingo-generator .grid-inputs input{width:100%;height:100%;background:transparent;padding:0;margin:0;border:0;outline:0;text-align:center;font-family:'DaxCondensed';font-size:20px;color:transparent}
+.bingo-generator .grid-inputs input:focus{color:#0b0b0b}
+.bingo-generator .grid-inputs input:focus{background:radial-gradient(closest-side,rgba(123,235,255,1) 0%,rgba(192,250,255,1) 60%,rgba(160,237,255,0) 100%)!important}
+#generator-results-canvas{width:30vw;height:calc(30vw / 0.915);border-radius:15px;box-shadow:0 0 35px #000}
+#generate-pdf{width:13vw;height:calc(13vw / 150 * 54);font-family:'DaxCondensed';font-size:1.9vw;line-height:120%;-webkit-text-stroke:2px rgba(34,53,6,.48);text-stroke:2px rgba(34,53,6,.48);background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/btn_create_yours.png) no-repeat;margin:10px auto 0;padding:0 0 5px;background-size:100% 100%;display:block}
+.bingo-generator input.title,.bingo-generator .grid-size,.bingo-generator .grid-size-options,.bingo-generator .inputs input[type="button"]{border:0;border-radius:20px;height:2.2vw;width:11vw;padding:0 20px 0 20px;font-size:1.3vw;text-align:center;font-family:'DaxCondensed',sans-serif;color:#0b0b0b;box-shadow:inset 1px 1px 3px rgba(0,0,0,.5);outline:0;box-sizing:border-box}
+.bingo-generator .inputs input[type="button"]{background:#fff url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/icon-templates.png) no-repeat center;background-size:50%;padding:0;margin:0;width:2.18vw}
+.tooltip{opacity:0;top:-5000px;left:-5000px;position:absolute;width:11.9vw;height:calc(11.9vw * 74 / 200);background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_tooltip.png);background-size:100% 100%;font-family:'DaxCondensed';text-align:center;line-height:calc(11.3vw * 74 / 200);font-size:1.1vw;text-transform:uppercase;transition:opacity 0.2s linear;z-index:15;box-sizing:border-box;padding-left:13px;color:#b26e59}
+.bingo-generator .canvas-wrapper{background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bingo_default.png) no-repeat;background-size:100%}
+.bingo-generator .canvas-wrapper .grid-inputs div.right:after{position:absolute;top:-5000px;left:-5000px;content:'Click to add custom \a number or text';white-space:pre-wrap;width:11.9vw;height:calc(11.9vw * 74 / 200);font-family:'DaxCondensed';background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_tooltip.png);background-size:100% 100%;text-align:center;font-size:1.1vw;text-transform:uppercase;transition:opacity 0.2s linear;z-index:15;box-sizing:border-box;padding-left:13px;opacity:0;line-height:1.25vw;padding-top:.83vw;color:#b26e59;pointer-events:none}
+.bingo-generator .canvas-wrapper .grid-inputs div.right:hover:after{top:auto;left:auto;margin-left:15px;opacity:1}
+.bingo-generator .canvas-wrapper .grid-inputs.grid-size-5 div.right:hover:after{margin-top:.34vw}
+.bingo-generator .canvas-wrapper .grid-inputs.grid-size-4 div.right:hover:after{margin-top:.98vw}
+.bingo-generator .canvas-wrapper .grid-inputs.grid-size-3 div.right:hover:after{margin-top:1.8vw}
+.bingo-generator .canvas-wrapper .grid-inputs div.left:before{position:absolute;top:-5000px;left:-5000px;content:'Click to add custom \a number or text';white-space:pre-wrap;width:11.9vw;height:calc(11.9vw * 74 / 200);font-family:'DaxCondensed';background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_tooltip_fliped.png);background-size:100% 100%;text-align:center;font-size:1.1vw;text-transform:uppercase;transition:opacity 0.2s linear;z-index:15;box-sizing:border-box;padding-right:13px;opacity:0;line-height:1.25vw;padding-top:.83vw;color:#b26e59;pointer-events:none}
+.bingo-generator .canvas-wrapper .grid-inputs div.left:hover:before{top:auto;left:auto;margin-left:-15px;transform:translate(-100%,0);opacity:1}
+.bingo-generator .canvas-wrapper .grid-inputs.grid-size-5 div.left:hover:before{margin-top:.34vw}
+.bingo-generator .canvas-wrapper .grid-inputs.grid-size-4 div.left:hover:before{margin-top:.98vw}
+.bingo-generator .canvas-wrapper .grid-inputs.grid-size-3 div.right:hover:before{margin-top:1.8vw}
+.bingo-generator .title-wrapper:hover .tooltip{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_tooltip_fliped.png);margin-left:-12.5vw;margin-top:-1.04vw;padding-left:0;padding-right:13px;top:auto;left:auto;display:block;opacity:1}
+.bingo-generator .grid-size:hover .tooltip{margin-left:5.2vw;margin-top:1.3vw;top:auto;left:auto;display:block;opacity:1}
+.bingo-generator .grid-size{background:#fff;line-height:2.39vw;cursor:pointer;position:relative;padding:0;max-width:90px}
+.bingo-generator .grid-size:hover .grid-size-options{display:block;position:absolute;width:100%;height:auto;background:#fff;top:0;padding:0;overflow:hidden;z-index:1}
+.bingo-generator .grid-size:hover .grid-size-options li{width:100%}
+.bingo-generator .grid-size:hover .grid-size-options li:hover{background:rgb(240,240,240);box-shadow:inset 1px 1px 3px rgba(0,0,0,.5)}
+.bingo-generator .grid-size:hover .grid-size-options li.active{background:rgb(220,220,220);box-shadow:inset 1px 1px 3px rgba(0,0,0,.5)}
+.bingo-generator .grid-size-options{display:none}
+.bingo-generator .canvas-wrapper .grid-size-5{grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr 1fr}
+.bingo-generator .canvas-wrapper .grid-size-4{grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr}
+.bingo-generator .canvas-wrapper .grid-size-3{grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr}
+#templates-popup-background{position:fixed;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:999999;top:0;pointer-events:none;display:none}
+#templates-popup.hidden{display:none}
+#templates-popup{position:fixed;width:72.9vw;height:41.5vw;top:45%;left:-50%;transform:translate(-50%,-50%);z-index:2000;background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_popup.png) no-repeat center;background-size:100% auto;align-items:center;display:flex;flex-direction:column;font-family:'DaxCondensed';padding:40px 20px;box-sizing:border-box}
+#templates-popup .tabs-area{width:100%}
+#templates-popup .tabs{display:flex;grid-gap:.78vw;margin-left:2.6vw}
+#templates-popup .tabs li{background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/tab.png) no-repeat center;background-size:100% 100%;text-align:center;min-width:9vw;text-transform:uppercase;line-height:2.34vw;cursor:pointer;font-size:1.1vw;color:#b26e59}
+#templates-popup .tabs li:hover{opacity:.9}
+#templates-popup .tabs li.active{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/tab_active.png);opacity:1;background-size:100% 100%;margin-bottom:-1px}
+#templates-popup .tabs-content{display:block;width:100%;height:100%;background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_tabs_content.png);background-size:100% 100%;padding:1.5vw 2.6vw 0;box-sizing:border-box}
+#templates-popup .tabs-content li{display:none;grid-template-columns:1fr 1fr 1fr;overflow-y:scroll;height:31vw;padding-right:15px}
+#templates-popup .tabs-content li.active{display:grid;grid-gap:25px}
+#templates-popup .tabs-content li div{position:relative}
+#templates-popup .tabs-content li div span{position:absolute;display:flex;justify-content:center;align-items:center;width:60%;left:20%;top:3.5%;background:#fff;color:#0b0b0b;text-align:center;text-transform:uppercase;font-size:1vw;border-radius:20px;line-height:100%;height:6%;padding-top:1%;box-sizing:border-box;box-shadow:inset 1px 1px 3px rgba(0,0,0,.5)}
+#templates-popup .tabs-content li div:after{content:"";position:absolute;width:75%;height:72%;top:12%;left:12.5%;background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/grid5.png);background-size:100% 100%}
+#templates-popup .close-button{background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/btn_close.png) center;background-size:100%;width:3vw;height:3vw;display:block;position:absolute;right:0;top:0;cursor:pointer}
+#templates-popup .tabs-content li button{width:7.8vw;height:calc(7.8vw / 154 * 54);font-family:'DaxCondensed';font-size:1.25vw;line-height:100%;-webkit-text-stroke:1px rgba(34,53,6,.48);text-stroke:1px rgba(34,53,6,.48);background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/btn_pick_me.png) no-repeat;margin:-1.56vw auto 0;padding:0;background-size:100% 100%;display:block}
+#templates-popup .tabs-content li button.active{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/btn_active.png)}
+#templates-popup .tabs-content li button:after{display:none}
+#templates-popup .tabs-content li{scrollbar-width:thin;scrollbar-color:#f78a3f rgba(255,255,255,.2)}
+#templates-popup .tabs-content li::-webkit-scrollbar{width:14px}
+#templates-popup .tabs-content li::-webkit-scrollbar-track{background:rgba(255,255,255,.2);-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);-webkit-border-radius:10px;border-radius:5px}
+#templates-popup .tabs-content li::-webkit-scrollbar-thumb{background:#f78a3f;width:34px;height:44px;border-radius:15px}
+.cards-per-page{padding-top:15px;padding-bottom:15px;display:flex;justify-content:space-between}
+#bingo-caller{display:flex;margin:0 auto;width:32vw;height:calc(32vw * 96/673);background:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/caller-bar.png);background-size:100% 100%;margin-bottom:8px}
+#bingo-caller #play-now{width:calc(32vw / 10.66);height:calc(32vw / 10.66);margin-top:calc(32vw / 55.3);margin-left:calc(32vw / 45);display:inline-block;background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/play-icon.png);background-size:100% 100%;cursor:pointer}
+#bingo-caller #play-now.paused{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/pause-icon.png)}
+#bingo-caller #play-now-wrapper{margin-right:5px}
+#bingo-caller #play-now-wrapper:hover .tooltip{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/bg_tooltip_fliped.png);margin-left:calc(32vw / -2.83);margin-top:0;top:auto;left:auto;display:block;opacity:1;padding-left:0;padding-right:13px}
+#bingo-caller .played-balls{display:block;height:3.2vw;min-height:72px;width:calc(32vw / 1.28);margin-left:calc(32vw / 32);padding-top:.6vw;overflow:hidden;position:relative}
+#bingo-caller .played-balls .paused{animation-play-state:paused!important}
+#bingo-caller .played-balls .ball{position:absolute;right:-15%;display:inline-block;width:calc(32vw / 10);height:calc(32vw / 10);background-size:100% 100%;font-family:'DaxCondensed';font-size:1vw;line-height:100%;color:#003952;text-align:center;padding-top:1.2vw;box-sizing:border-box;animation:20s linear 0s alternate move_ball}
+#bingo-caller .played-balls .ball span{display:inline-block;font-size:.75vw;line-height:100%;margin-top:0vw}
+#bingo-caller .played-balls .ball_b{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/ball_b.png)}
+#bingo-caller .played-balls .ball_i{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/ball_i.png)}
+#bingo-caller .played-balls .ball_n{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/ball_n.png)}
+#bingo-caller .played-balls .ball_g{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/ball_g.png)}
+#bingo-caller .played-balls .ball_o{background-image:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/images/ball_o.png)}
+.bingo-generator .grid-size{width:5vw}
+#templates-popup .tabs-content li{height:29vw}
+@media screen and (max-width:876px){#bingo-caller{width:273px;height:calc(273px * 96/673);margin-bottom:8px}
+#bingo-caller #play-now{width:calc(273px / 10.66);height:calc(273px / 10.66);margin-top:calc(273px / 55.3);margin-left:calc(273px / 45)}
+#bingo-caller #play-now-wrapper{margin-right:5px}
+#bingo-caller #play-now-wrapper:hover .tooltip{margin-left:calc(273px / -2.83)}
+#bingo-caller .played-balls{width:calc(273px / 1.28);margin-left:calc(273px / 32)}
+#bingo-caller .played-balls .ball{width:calc(273px / 10);height:calc(273px / 10);font-size:10px;padding-top:9px}
+#bingo-caller .played-balls .ball span{font-size:6px;margin-top:0}
+#bingo-caller #play-now-wrapper:hover .tooltip{display:none}
+.cards-per-page{flex-direction:column;align-items:center}
+.cards-per-page label{top:2px;padding-bottom:10px;width:120px}
+#generator-results-canvas{width:263px;height:calc(263px / 0.915)}
+.bingo-generator .grid-size{font-size:12px;width:43px;height:19px}
+.bingo-generator .grid-size-options{font-size:12px;border-radius:10px}
+.bingo-generator .grid-inputs{width:209px;height:208px;margin-top:56px;margin-left:25px}
+.bingo-generator #generator-result .inputs div.tooltip{display:none}
+.bingo-generator .canvas-wrapper .grid-inputs div:after{display:none}
+.bingo-generator .canvas-wrapper .grid-inputs div:before{display:none}
+.bingo-generator .grid-size .value{line-height:20px}
+.bingo-generator .grid-size:hover .grid-size-options li{line-height:120%}
+#templates-popup .tabs-content li{height:calc(35vw - 50px)}
+#templates-popup .tabs li{font-size:13px;min-width:50px;line-height:20px;padding:5px 10px 0}
+#templates-popup{padding:20px 10px}
+@media screen and (max-width:700px){#templates-popup .tabs-content li{grid-template-columns:1fr 1fr}
+#templates-popup .tabs-content li div span{font-size:1.5vw}
+@media screen and (max-width:550px){#templates-popup{width:90vw;height:80vw;background-size:100% 100%;left:44%}
+#templates-popup .tabs-content li{height:calc(70vw - 50px)}
+#templates-popup .tabs-content li.active{grid-gap:10px}
+#templates-popup .tabs-content li div span{font-size:2vw}
+#templates-popup .tabs-content li.active button{width:70px;height:calc(70px / 154 * 54);font-size:13px;margin:-17px auto 0}
+#templates-popup .close-button{width:30px;height:30px}
+@font-face{font-family:'mfn-icons';src:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/fonts/mfn-icons.eot);src:url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/fonts/mfn-icons.eot#iefix) format("embedded-opentype"),url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/fonts/mfn-icons.woff) format("woff"),url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/fonts/mfn-icons.ttf) format("truetype"),url(https://www.bingoblitz.com/wp-content/themes/bingo-theme/bingo-card-generator/bingo_generator/fonts/mfn-icons.svg#mfn-icons) format("svg");font-weight:400;font-style:normal;font-display:swap}

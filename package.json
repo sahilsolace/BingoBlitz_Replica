@@ -1,0 +1,17 @@
+{
+  "name": "bingo-blitz-replica",
+  "version": "1.0.0",
+  "description": "Bingo Blitz pixel-perfect replica",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "bingo-blitz",
+    "replica",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT"
+}

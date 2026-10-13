@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Start Local Server (Node.js)",
+      "program": "${workspaceFolder}/server.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome with Bingo Blitz",
+      "url": "http://127.0.0.1:3000",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Edge with Bingo Blitz",
+      "url": "http://127.0.0.1:3000",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
