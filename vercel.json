@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/bingo-card-generator",
+      "destination": "/generator.html"
+    },
+    {
+      "source": "/bingo-card-generator/",
+      "destination": "/generator.html"
+    },
+    {
+      "source": "/generator/(.*)",
+      "destination": "/generator.html"
+    }
+  ]
+}

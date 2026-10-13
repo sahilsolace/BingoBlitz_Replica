@@ -1,8 +1,9 @@
 const http = require('http');
+const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const MIME_TYPES = {
   '.html': 'text/html',
   '.css': 'text/css',
@@ -18,9 +19,7 @@ const MIME_TYPES = {
   '.eot': 'application/vnd.ms-fontobject'
 };
 
-const https = require('https');
-
-const server = http.createServer((req, res) => {
+const requestHandler = (req, res) => {
   let reqPath = req.url.split('?')[0];
   if (reqPath === '/') reqPath = '/index.html';
   if (reqPath === '/bingo-card-generator' || reqPath === '/bingo-card-generator/' || reqPath.startsWith('/generator/')) {
@@ -43,9 +42,13 @@ const server = http.createServer((req, res) => {
     const remoteUrl = 'https://www.bingoblitz.com' + req.url;
     https.get(remoteUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }, remoteRes => {
       if (remoteRes.statusCode === 200) {
-        fs.mkdirSync(path.dirname(localTarget), { recursive: true });
-        const fileStream = fs.createWriteStream(localTarget);
-        remoteRes.pipe(fileStream);
+        try {
+          fs.mkdirSync(path.dirname(localTarget), { recursive: true });
+          const fileStream = fs.createWriteStream(localTarget);
+          remoteRes.pipe(fileStream);
+        } catch (fsErr) {
+          // Read-only filesystem in serverless environments (Vercel)
+        }
       }
       res.writeHead(remoteRes.statusCode, {
         'Content-Type': remoteRes.headers['content-type'] || 'application/octet-stream',
@@ -80,8 +83,14 @@ const server = http.createServer((req, res) => {
       res.end(content, 'utf-8');
     }
   });
-});
+};
 
-server.listen(PORT, '127.0.0.1', () => {
-  console.log(`Bingo Blitz local replica running at http://127.0.0.1:${PORT}/`);
-});
+const server = http.createServer(requestHandler);
+
+if (require.main === module) {
+  server.listen(PORT, () => {
+    console.log(`Bingo Blitz local replica running at http://127.0.0.1:${PORT}/`);
+  });
+}
+
+module.exports = requestHandler;
