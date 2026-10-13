@@ -27,8 +27,8 @@ const server = http.createServer((req, res) => {
     reqPath = '/generator.html';
   }
 
-  // Handle /wp-content/ requests by proxying and caching locally
-  if (reqPath.startsWith('/wp-content/')) {
+  // Handle /wp-content/ and /wp-includes/ requests by proxying and caching locally
+  if (reqPath.startsWith('/wp-content/') || reqPath.startsWith('/wp-includes/')) {
     const localTarget = path.join(__dirname, reqPath);
     if (fs.existsSync(localTarget)) {
       const ext = path.extname(localTarget).toLowerCase();

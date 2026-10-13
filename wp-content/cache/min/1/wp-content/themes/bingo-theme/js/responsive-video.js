@@ -1,0 +1,1 @@
+(function(){var mq=window.matchMedia('(max-width: 1023.98px)');document.querySelectorAll('video[data-mobile-src]').forEach(function(video){video.src=mq.matches?video.dataset.mobileSrc:video.dataset.desktopSrc})})()

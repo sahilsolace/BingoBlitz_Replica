@@ -1,0 +1,4 @@
+const queryString=window.location.search;if(queryString.length>0){const urlParams=new URLSearchParams(queryString);if(urlParams.has('buffalo_id')){saveToLocalStorage('support',queryString)}}
+if(getFromLocalStorage('support').length>0){let contactUsButtons=document.querySelectorAll('.contact-our-support');if(contactUsButtons.length>0){contactUsButtons.forEach(function(element){element.setAttribute('href',element.getAttribute('href')+getFromLocalStorage('support'))})}}
+function saveToLocalStorage(name,value){localStorage.setItem(name,value)}
+function getFromLocalStorage(cookieName){let value=localStorage.getItem(cookieName);return value!==null?value:''}
